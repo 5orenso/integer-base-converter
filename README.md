@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/5orenso/integer-base-converter.svg)](https://travis-ci.org/5orenso/integer-base-converter)
 [![Coverage Status](https://coveralls.io/repos/5orenso/integer-base-converter/badge.svg)](https://coveralls.io/r/5orenso/integer-base-converter)
 [![GitHub version](https://badge.fury.io/gh/5orenso%2Finteger-base-converter.svg)](http://badge.fury.io/gh/5orenso%2Finteger-base-converter)
-[![npm version](https://badge.fury.io/js/5orenso%2Finteger-base-converter.svg)](http://badge.fury.io/js/5orenso%2Finteger-base-converter)
+[![npm version](https://badge.fury.io/js/integer-base-converter.svg)](http://badge.fury.io/js/integer-base-converter)
 
 A module for converting numbers between bases. Convert your number from base10 to base2-60.
 
