@@ -1,0 +1,3 @@
+* _2015-04-07_: Fixed badge. (HEAD, origin/master, master) [Øistein Sørensen] <a href="http://github.com/5orenso/integer-base-converter/commit/9dc2467471df2f092113471f7548d17b9fd421dd">view commit</a>
+* _2015-04-07_: Fixed descriptions. (tag: 0.1.0) [Øistein Sørensen] <a href="http://github.com/5orenso/integer-base-converter/commit/7f4b6c3e4aba80eff3ad4c419d1fcb592b106227">view commit</a>
+* _2015-04-07_: initial commit [Øistein Sørensen] <a href="http://github.com/5orenso/integer-base-converter/commit/4f1fba144e9945b5982666c8732da1f2737181c0">view commit</a>
