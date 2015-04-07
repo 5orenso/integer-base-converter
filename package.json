@@ -1,0 +1,44 @@
+{
+  "name": "integer-base-converter",
+  "description": "A module for converting numbers between bases. Convert your number from base10 to base2-60",
+  "version": "0.1.0",
+  "homepage": "https://github.com/5orenso/integer-base-converter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/5orenso/integer-base-converter"
+  },
+  "bugs": {
+    "url": "https://github.com/5orenso/integer-base-converter/issues"
+  },
+  "author": {
+    "name": "Øistein Sørensen",
+    "email": "sorenso@gmail.com"
+  },
+  "main": "app/app.js",
+  "engines": {
+    "node": ">=0.10.35"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "devDependencies": {
+    "buster": "^0.7.18",
+    "buster-istanbul": "^0.1.13",
+    "grunt": "^0.4.5",
+    "grunt-buster": "^0.3.2",
+    "grunt-contrib-jshint": "^0.11.1",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-coveralls": "^1.0.0",
+    "grunt-jscs": "^1.6.0",
+    "grunt-nodemon": "^0.4.0",
+    "grunt-shell": "^1.1.2"
+  },
+  "keywords": [],
+  "dependencies": {
+    "commander": "^2.7.1",
+    "underscore": "^1.8.2",
+    "when": "^3.7.2",
+    "winston": "^0.9.0"
+  }
+}
