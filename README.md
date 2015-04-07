@@ -1,45 +1,39 @@
-# node-boilerplate
+# integer-base-converter
 
-[![Build Status](https://travis-ci.org/5orenso/node-boilerplate.svg)](https://travis-ci.org/5orenso/node-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/5orenso/node-boilerplate/badge.svg)](https://coveralls.io/r/5orenso/node-boilerplate)
+[![Build Status](https://travis-ci.org/5orenso/integer-base-converter.svg)](https://travis-ci.org/5orenso/integer-base-converter)
+[![Coverage Status](https://coveralls.io/repos/5orenso/integer-base-converter/badge.svg)](https://coveralls.io/r/5orenso/integer-base-converter)
+[![GitHub version](https://badge.fury.io/gh/5orenso%2Finteger-base-converter.svg)](http://badge.fury.io/gh/5orenso%2Finteger-base-converter)
+[![npm version](https://badge.fury.io/js/5orenso%2Finteger-base-converter.svg)](http://badge.fury.io/js/5orenso%2Finteger-base-converter)
 
-A small boilerplate to help you kickstart your projects with unit tests, integration tests, code coverage, continous integration, code hinting and code style enforcement.
+A module for converting numbers between bases. Convert your number from base10 to base2-60.
 
-Helper modules in use:
+## Quick start
 
-__JSHint__
-A tool that helps to detect errors and potential problems in your JavaScript code.
-
-__Grunt__
-The Javascript task runner. In one word: automation. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes.
-
-__Buster.js__
-A browser JavaScript testing toolkit. It does browser testing with browser automation (think JsTestDriver), QUnit style static HTML page testing, testing in headless browsers (PhantomJS, jsdom), and more.
-
-__JSCS__
-JSCS is a code style linter for programmatically enforcing your style guide.
-
-__Istanbul__
-A Javascript code coverage tool written in JS.
-
-__Travis__
-Travis CI is a hosted continuous integration service. It is integrated with GitHub and offers first class support for many languages.
-
-__Coveralls.io__
-Coveralls is a web service to help you track your code coverage over time, and ensure that all your new code is fully covered.
-
-
-### HOWTO upgrade dev environment
 ```bash
-npm install buster --save-dev
-npm install buster-istanbul --save-dev
-npm install grunt --save-dev
-npm install grunt-buster --save-dev
-npm install grunt-contrib-jshint --save-dev
-npm install grunt-contrib-nodeunit --save-dev
-npm install grunt-contrib-watch --save-dev
-npm install grunt-coveralls --save-dev
-npm install grunt-jscs --save-dev
-npm install grunt-nodemon --save-dev
-npm install grunt-shell --save-dev
+npm install integer-base-converter
 ```
+
+Then you can use it like this:
+```javascript
+var ibc = require('integer-base-converter');
+var result = ibc.convert(1000, 10, 60);
+console.log(result);
+# -> Result should be 'Ge'
+```
+
+## Howto contribute
+
+```bash
+git clone git@github.com:5orenso/integer-base-converter.git
+```
+Do your magic and create a pull request.
+
+## Howto report issues
+
+Use the [Issue tracker](https://github.com/5orenso/integer-base-converter/issues)
+
+## More about the author
+
+- Twitter: [@sorenso](https://twitter.com/sorenso)
+- Instagram: [@sorenso](https://instagram.com/sorenso)
+- Facebook: [@sorenso](https://facebook.com/sorenso)
