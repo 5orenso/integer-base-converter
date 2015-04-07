@@ -1,7 +1,7 @@
 {
   "name": "integer-base-converter",
   "description": "A module for converting numbers between bases. Convert your number from base10 to base2-60.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/5orenso/integer-base-converter",
   "repository": {
     "type": "git",
