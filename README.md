@@ -9,10 +9,11 @@ A module for converting numbers between bases. Convert your number from base10 t
 
 This module can be useful for different application.
 
-__Examples:__
+__Example:__
 
-* __URL shortener__ or other places where you need you number to be presented 
-in a shorted fashion. Instead of: https://example.com/123456789 you get    
+* __URL shortener__ where you need you number to be presented in a shorted fashion. Instead of:    
+https://example.com/123456789 you get https://example.com/9VXX9
+
 
 ## Quick start
 
