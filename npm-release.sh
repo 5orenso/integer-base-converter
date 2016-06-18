@@ -20,7 +20,7 @@ EOM
 
 # Do Github.com release
 GITHUB_REPO_API_URL="https://api.github.com/repos/"
-GITHUB_REPO_URL=$(jq -r '.repository.url' package.json || perl -pe 's|https://github.com/||') # "5orenso/integer-base-converter"
+GITHUB_REPO_URL=$(jq -r '.repository.url' package.json | perl -pe 's|https://github.com/||') # "5orenso/integer-base-converter"
 GITHUB_REPO_API_ENDPOINT="/releases?access_token=${GITHUB_TOKEN}"
 GITHUB_FINAL_URL=${GITHUB_REPO_API_URL}${GITHUB_REPO_URL}${GITHUB_REPO_API_ENDPOINT}
 
